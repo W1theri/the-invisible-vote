@@ -1,0 +1,25 @@
+{
+  "name": "the-invisible-vote",
+  "version": "2.0.0",
+  "private": true,
+  "description": "GitHub Pages + Supabase university A/B experiment",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/database.test.mjs",
+    "test:browser": "playwright test",
+    "check": "npm test && npm run build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.0",
+    "qrcode-generator": "2.0.4"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.16",
+    "@playwright/test": "1.65.0",
+    "esbuild": "0.28.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
