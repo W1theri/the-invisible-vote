@@ -52,7 +52,7 @@ npm run preview
 1. Загрузите исходники в ветку `main`.
 2. Откройте **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 3. Workflow **Test and deploy GitHub Pages** проверит SQL, соберёт `dist/` и опубликует его.
-4. Адрес сайта после успешного развёртывания: `https://w1theri.github.io/the-invisible-vote/`.
+4. Опубликованный адрес этого экземпляра: `https://w1theri.github.io/the-invisible-vote/`.
 
 Обычному участнику отправляйте именно адрес сайта. Исследовательский вход открывается через **Researcher access** или ссылку с `#research` в конце. Опубликованный сайт и код могут быть публичными; сами ответы остаются в базе и доступны только авторизованным исследователям.
 
